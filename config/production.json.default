@@ -1,12 +1,12 @@
 {
 	"server": {
-		"port": 3000,
-		"hostname": "0.0.0.0"
+		"port": 8000,
+		"hostname": "127.0.0.1"
 	},
 	"mongo": {
 		"url": "mongodb://localhost:27017/me-ls-al-libc"
 	},
 	"libc": {
-		"binary": "~/libc"
+		"binary": "/disk/libc"
 	}
 }

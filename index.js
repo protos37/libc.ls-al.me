@@ -1,7 +1,7 @@
 var config = require("config");
 var express = require("express");
 var swig = require("swig");
-var Q = require("Q");
+var Q = require("q");
 var MongoClient = require("mongodb").MongoClient;
 
 var symbols = require("./libc-binary-collection/symbols.json");
