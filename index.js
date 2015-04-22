@@ -87,7 +87,7 @@ MongoClient.connect(config.mongo.url, function (err, db) {
 		}
 
 		Q.all(promises).then(function () {
-			var server = app.listen(config.server.port, config.server.host, function () {
+			var server = app.listen(config.server.port, config.server.hostname, function () {
 				console.log("Listening at http://%s:%s", server.address().address, server.address().port);
 			});
 		});
